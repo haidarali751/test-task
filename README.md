@@ -9,3 +9,21 @@ The Prediction Canvas is a Python class that provides methods for preprocessing 
 **generate_business_rules(X, y, target_variable, model):** Generates business rules based on feature importances. It calculates the feature importances using the trained model, identifies important categorical features, and creates rules for those features and their categories based on label distribution.
 
 **create_segments(df, business_rules):** Creates segments based on the generated business rules. It takes the preprocessed data and the generated rules as inputs and returns a dictionary of segments, where each segment is defined by a feature-category pair and contains the corresponding indices from the input data.
+
+## Plots
+
+**feature importance plot :** A feature importance plot provides a visual representation of the relative importance of different features in your data.
+
+![](https://github.com/haidarali751/test-task/blob/main/feature_importance.png)
+
+**Confusion_matrix:**
+
+![](https://github.com/haidarali751/test-task/blob/main/confusion_matrix.png)
+
+**Target distribution**
+
+![](https://github.com/haidarali751/test-task/blob/main/target_variable_distribution.png)
+
+**ROC curve**
+
+![](https://github.com/haidarali751/test-task/blob/main/ROC%20curve.png)
